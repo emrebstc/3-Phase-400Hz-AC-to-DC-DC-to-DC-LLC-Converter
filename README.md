@@ -1,20 +1,6 @@
 This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
 Also doesnt include a synchronous rectification.
 
-# Key Features
-
-*3-Phase 400Hz Input Stage:* Includes a comprehensive EMI/EMC protection layer with a Varistor, X/Y safety capacitors, and a Common Mode Choke (CMC).
-
-*Active Soft-Starter:* A MOSFET-based bypass circuit limits inrush current during the initial charging of the bulk capacitor.
-
-*Precision LLC Tank:* Designed with an $10\mu\text{H}$ resonant inductor ($L_r$) and a $250\text{nF}$ resonant capacitor ($C_r$) to achieve Zero Voltage Switching (ZVS) at $100\text{kHz}$.
-
-*High-Power Rectification:* Utilizes STTH30R06 ultra-fast recovery diodes in a center-tapped secondary configuration for high-current handling.
-
-*Multi-Stage Output Filtering:* Employs an $L-C-L$ filter structure to drastically reduce high-frequency switching ripple on the $28\text{V}$ output rail.
-
-*Integrated Performance Analytics:* Built-in .measure scripts automatically calculate Efficiency, Power Factor (PF), and Active/Reactive Power directly within LTspice.
-
 # Technical Specifications
 
 Input Voltage:  115V AC (RMS) - (3-Phase, 400 Hz)
@@ -38,6 +24,20 @@ Transformer Ratio: 3.66
 Soft-Start Delay: 50 ms
 
 Switching Delay: 100 ms
+
+# Key Features
+
+*3-Phase 400Hz Input Stage:* Includes a comprehensive EMI/EMC protection layer with a Varistor, X/Y safety capacitors, and a Common Mode Choke (CMC).
+
+*Active Soft-Starter:* A MOSFET-based bypass circuit limits inrush current during the initial charging of the bulk capacitor.
+
+*Precision LLC Tank:* Designed with an $10\mu\text{H}$ resonant inductor ($L_r$) and a $250\text{nF}$ resonant capacitor ($C_r$) to achieve Zero Voltage Switching (ZVS) at $100\text{kHz}$.
+
+*High-Power Rectification:* Utilizes STTH30R06 ultra-fast recovery diodes in a center-tapped secondary configuration for high-current handling.
+
+*Multi-Stage Output Filtering:* Employs an $L-C-L$ filter structure to drastically reduce high-frequency switching ripple on the $28\text{V}$ output rail.
+
+*Integrated Performance Analytics:* Built-in .measure scripts automatically calculate Efficiency, Power Factor (PF), and Active/Reactive Power directly within LTspice.
 
 # Simulation Results
 
