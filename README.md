@@ -1,7 +1,7 @@
 This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
 Also doesnt include a synchronous rectification.
 
-##Key Features
+# Key Features
 
 *3-Phase 400Hz Input Stage:* Includes a comprehensive EMI/EMC protection layer with a Varistor, X/Y safety capacitors, and a Common Mode Choke (CMC).
 
@@ -15,7 +15,7 @@ Also doesnt include a synchronous rectification.
 
 *Integrated Performance Analytics:* Built-in .measure scripts automatically calculate Efficiency, Power Factor (PF), and Active/Reactive Power directly within LTspice.
 
-#Technical Specifications
+# Technical Specifications
 
 Input Voltage:  115V AC (RMS) - (3-Phase, 400 Hz)
 
@@ -39,7 +39,7 @@ Soft-Start Delay: 50 ms
 
 Switching Delay: 100 ms
 
-#Simulation Results
+# Simulation Results
 
 The simulation demonstrates the transition from a non-loaded state to a full-load operation starting at 100ms
 
