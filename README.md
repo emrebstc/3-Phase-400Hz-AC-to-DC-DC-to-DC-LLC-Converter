@@ -51,3 +51,6 @@ The simulation demonstrates the transition from a non-loaded state to a full-loa
 *Efficiency:* Measured using the ratio of P_load to P_Vin after the system reaches a steady state.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vout
+<img width="2531" height="630" alt="Vout" src="https://github.com/user-attachments/assets/77693d38-1f01-4523-acd5-7059d7f99801" />
+
