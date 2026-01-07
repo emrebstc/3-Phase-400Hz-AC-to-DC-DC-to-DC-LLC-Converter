@@ -1,7 +1,7 @@
 This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
 Also doesnt include a synchronous rectification.
 
-#Key Features#
+##Key Features
 
 *3-Phase 400Hz Input Stage:* Includes a comprehensive EMI/EMC protection layer with a Varistor, X/Y safety capacitors, and a Common Mode Choke (CMC).
 
