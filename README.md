@@ -49,3 +49,5 @@ The simulation demonstrates the transition from a non-loaded state to a full-loa
 *Ripple Performance:* The added 2uH and 1uH output inductors effectively "thin out" the switching noise, providing a clean DC voltage for sensitive electronics.
 
 *Efficiency:* Measured using the ratio of P_load to P_Vin after the system reaches a steady state.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
