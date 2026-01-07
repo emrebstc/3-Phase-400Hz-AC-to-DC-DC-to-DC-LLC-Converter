@@ -1,4 +1,5 @@
-A simulation i created to learn about LTspice and various elements such as LLC converter, EMI filters, and to FFT analysis.
+This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
+Also doesnt include a synchronous rectification.
 
 #Key Features
 
@@ -15,9 +16,18 @@ A simulation i created to learn about LTspice and various elements such as LLC c
 *Integrated Performance Analytics:* Built-in .measure scripts automatically calculate Efficiency, Power Factor (PF), and Active/Reactive Power directly within LTspice.
 
 #Technical Specifications
+
 Input Voltage:  115V AC (RMS) - (3-Phase, 400 Hz)
 
-Output Voltage: 28V DC (Nominal)
+DC Bus Voltage: 265V (Nominal) , (1V Peak to Peak Ripple)
+
+Output Voltage: 28V DC (Nominal) , (150mV Peak to Peak Ripple)
+
+Output Power: 750 W
+
+Efficiency: %86 ( No Synchronous rectification ) 
+
+Power Factor(PF): %93.33
 
 Resonant Frequency: 100 kHz
 
@@ -30,6 +40,7 @@ Soft-Start Delay: 50 ms
 Switching Delay: 100 ms
 
 #Simulation Results
+
 The simulation demonstrates the transition from a non-loaded state to a full-load operation starting at 100ms
 
 *Input Stability:* The 25mH input inductor and 330uF bulk capacitor provide significant damping, though they exhibit a low-frequency resonance during the step-load transition.
