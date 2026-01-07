@@ -32,7 +32,7 @@ Switching Delay: 100 ms
 
 *Active Soft-Starter:* A MOSFET-based bypass circuit limits inrush current during the initial charging of the bulk capacitor.
 
-*Precision LLC Tank:* Designed with an $10\mu\text{H}$ resonant inductor ($L_r$) and a $250\text{nF}$ resonant capacitor ($C_r$) to achieve Zero Voltage Switching (ZVS) at $100\text{kHz}$.
+*Precision LLC Tank:* Designed with an 10uH resonant inductor Lr and a 250nF resonant capacitor Cr to achieve Zero Voltage Switching (ZVS) at 100kHz.
 
 *High-Power Rectification:* Utilizes STTH30R06 ultra-fast recovery diodes in a center-tapped secondary configuration for high-current handling.
 
