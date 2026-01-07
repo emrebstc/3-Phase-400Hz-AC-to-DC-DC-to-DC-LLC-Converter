@@ -1,5 +1,6 @@
 This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
-Doesnt include a synchronous rectification.
+
+Synchronous rectifiers can be used instead of diodes to increase efficiency. Additionally, inrush current can be limited by using a thyristor instead of a soft starter.
 
 # Technical Specifications
 
