@@ -1,5 +1,5 @@
 This is a simulation I created  to learn about various elements such as LTspice, LLC converters, ZVS, Heatsink calculations, EMI filters, Inrush current limiting and FFT analysis.
-Also doesnt include a synchronous rectification.
+Doesnt include a synchronous rectification.
 
 # Technical Specifications
 
