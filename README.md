@@ -51,6 +51,21 @@ The simulation demonstrates the transition from a non-loaded state to a full-loa
 *Efficiency:* Measured using the ratio of P_load to P_Vin after the system reaches a steady state.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Vout
+1)Circuit
+<img width="2484" height="804" alt="Devre" src="https://github.com/user-attachments/assets/b268c074-e3d6-447b-a576-471f09ab45da" />
+2)Results
+<img width="1097" height="355" alt="Data" src="https://github.com/user-attachments/assets/a910afa8-62ec-4a41-ab46-f15312fb4067" />
+3)Vout
 <img width="2531" height="630" alt="Vout" src="https://github.com/user-attachments/assets/77693d38-1f01-4523-acd5-7059d7f99801" />
-
+4)Vin
+<img width="2536" height="630" alt="Vin" src="https://github.com/user-attachments/assets/63e4e0ff-e290-4671-9690-96c69c2c7f9f" />
+5)Soft-Switching
+<img width="2492" height="628" alt="SoftSwitch" src="https://github.com/user-attachments/assets/51e1569b-09a8-4491-83c5-30ec872b1290" />
+6)Current of Primary Coil and LLC Circuit
+<img width="2499" height="635" alt="I_Primer" src="https://github.com/user-attachments/assets/863ff1e3-2e4f-4f03-a00b-08aa46b2547a" />
+7)V-I Characteristic Graph of the L1
+<img width="2534" height="632" alt="V-I-L1" src="https://github.com/user-attachments/assets/f19c4d96-bd87-4004-b9df-9ee64d5cbae7" />
+8)Vout FFT
+<img width="2040" height="884" alt="Vout_FFT" src="https://github.com/user-attachments/assets/ed0beb14-283e-4c69-bb52-bd4540a172c7" />
+9)L1 FFT
+<img width="2081" height="881" alt="L1_FFT" src="https://github.com/user-attachments/assets/859a5235-a933-452e-83ee-8b42f1d74ace" />
